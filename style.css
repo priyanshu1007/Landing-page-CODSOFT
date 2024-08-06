@@ -1,0 +1,82 @@
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #3498db;
+      color: #fff;
+      text-align: center;
+      padding: 2em 0;
+    }
+
+    h1, h2, p {
+      margin-bottom: 20px;
+    }
+
+    section {
+      position: relative;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    .courses {
+      position: relative;
+      text-align: center;
+      color: #fff;
+      padding: 50px;
+      border-radius: 10px;
+      background: url('https://t3.ftcdn.net/jpg/06/32/43/24/240_F_632432458_J6IbON1KhOG47osdMkmTXLGuDwFefrVG.jpg') center/cover no-repeat;
+      background-size: cover;
+    }
+
+    .resources {
+      background-color: #2ecc71;
+      color: #fff;
+    }
+
+    .testimonials {
+      background-color: #e74c3c;
+      color: #fff;
+    }
+
+    .call-to-action {
+      text-align: center;
+      padding: 30px;
+      background-color: #3498db;
+      color: #fff;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #fff;
+      color: #3498db;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #3498db;
+      color: #fff;
+    }
+
+    .copyright {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 3px 0; /* Adjusted padding for a smaller size */
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
